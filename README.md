@@ -6,9 +6,11 @@ Swasthya is a groundbreaking project that aims to address the escalating prevale
 
 * Video:
 
-https://github.com/Amarnath-Rao/Swasthya-AI/assets/96937608/672da951-8d05-4cf2-8fdd-c6bcafe4bd10
+
+https://github.com/Amarnath-Rao/Swasthya-AI/assets/96937608/ca4144c3-dcee-4866-882e-501c7bdd8001
 
 * Link to Phase 2: [Here](https://amarnath-rao.github.io/Swasthya-AI/AI-automated/index.html)
+
 
 ### Features
 * Conversational Engagement: Engages users in meaningful conversations to understand their unique mental health needs.
