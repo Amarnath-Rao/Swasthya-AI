@@ -4,6 +4,11 @@
 
 Swasthya is a groundbreaking project that aims to address the escalating prevalence of mental health issues in today's society. The project focuses on creating a conversational agent dedicated to providing vital mental health support. By leveraging advanced machine learning algorithms, natural language processing, and text-to-speech functionality, Swasthya offers personalized and stigma-free assistance to individuals in need.
 
+* Video:
+
+https://github.com/Amarnath-Rao/Swasthya-AI/assets/96937608/672da951-8d05-4cf2-8fdd-c6bcafe4bd10
+
+* Link to Phase 2: [Here](https://amarnath-rao.github.io/Swasthya-AI/AI-automated/index.html)
 
 ### Features
 * Conversational Engagement: Engages users in meaningful conversations to understand their unique mental health needs.
