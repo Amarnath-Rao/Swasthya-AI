@@ -16,7 +16,7 @@ const loadDataFromLocalStorage = () => {
 
   const defaultText = `<div class="default-text">
                             <h1>Swasthya</h1>
-                            <h3>Explore the power of AI to improce your mental health <br>Your chat will be displayed here.</h3>
+                            <h3>Explore the power of AI to improve your mental health <br>Your chat will be displayed here.</h3>
                         </div>`;
 
   chatContainer.innerHTML = localStorage.getItem("all-chats") || defaultText;
@@ -125,6 +125,16 @@ const showTypingAnimation = () => {
 const handleOutgoingChat = () => {
   UserText = chatInput.value.trim();
   if (!UserText) return;
+
+  // Define an array of keywords related to mental and personal health
+  const healthKeywords = ["mental health", "personal health", "wellness", "stress", "anxiety", "depression", "fitness", "nutrition", "self-care"];
+
+  // Check if the user's text includes any of the health-related keywords
+  const isHealthRelated = healthKeywords.some(keyword => UserText.toLowerCase().includes(keyword));
+  if (!isHealthRelated) {
+    alert("I can only assist with questions related to mental health, personal health, and related topics.");
+    return;
+  }
 
   chatInput.value = "";
   chatInput.style.height = `${initialInputHeight}px`;
