@@ -127,7 +127,7 @@ const handleOutgoingChat = () => {
   if (!UserText) return;
 
   // Define an array of keywords related to mental and personal health
-  const healthKeywords = ["mental health", "personal health", "wellness", "stress", "anxiety", "depression", "fitness", "nutrition", "self-care"];
+  const healthKeywords = ["mental health", "personal health", "wellness", "stress", "anxiety", "depression", "fitness", "nutrition", "self-care","health"];
 
   // Check if the user's text includes any of the health-related keywords
   const isHealthRelated = healthKeywords.some(keyword => UserText.toLowerCase().includes(keyword));
